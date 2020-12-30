@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Serve all the files in '/dist' directory
-app.use(express.static('dist'));
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
    res.render('index.html')
