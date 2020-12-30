@@ -21,7 +21,7 @@ export default {
         if (score < 250 ) {
             this.rank = "Very Fast Fingers"
         }
-        else if (score < 400) {
+        else if (score < 600) {
             this.rank = "Fast Enough"
         }
         else {
